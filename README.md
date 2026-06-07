@@ -1,17 +1,19 @@
-```markdown
-# 🛡️ CryptoGuard (Dark Mode PQC Dashboard)
+
+🛡️ CryptoGuard (Dark Mode PQC Dashboard)
 A next-generation cryptographic safety auditor and interactive dashboard designed to evaluate public-key infrastructure (PKI) vulnerability index thresholds against emerging quantum computing threat vectors. 
 The application scans TLS/certificate endpoints, computes explainable risk scoring, manages active API key lifecycles, and retains persistent audit logs over secure pipelines.
+
 🚀 **[Live Production Deployment](https://crypto-guard1.vercel.app/)**
+
 ---
-## ✨ Features
+✨ Features
 * **Quantum-Urgency Risk Engine:** Scans active TLS endpoints and computes an explainable, multi-variable vulnerability score mapping classical strength against quantum threat timelines.
 * **Secured API Key Management:** Admin APIs employ strict security protocols—never returning plaintext keys. Active keys are securely referenced solely via `keyId` and `keyFingerprint`.
 * **Automated Data Migrations:** Implements an automated backend schema migration on startup, enforcing a default quota limit of `5` scans per API key to ensure system stability.
 * **Granular Audit Logs:** Complete per-scan and bulk-deletion management pipelines for historical records, accessible via an interactive administrative UI.
 * **Highly Tunable Configurations:** The risk scoring matrix is fully customizable via decoupled environment variables governing algorithm weights and penalty thresholds.
 ---
-## 🛠️ Systems Design & Architecture
+🛠️ Systems Design & Architecture
 The codebase is organized into an isolated, performant monorepo structure separating the data processing backend from the responsive administrative viewports:
 ### 📂 Repository Directory Tree
 ```text
