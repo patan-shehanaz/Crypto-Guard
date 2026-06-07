@@ -1,3 +1,5 @@
+**deployed link**: https://crypto-guard1.vercel.app/
+<br>
 # Dark Mode PQC Dashboard
 
 A small dashboard and scanner demonstrating post-quantum cryptography (PQC) readiness analysis and scan history management. This repo contains a Node/Express backend (scan engine, risk scoring, MongoDB store) and a React + Vite frontend for administration and viewing scan results.
