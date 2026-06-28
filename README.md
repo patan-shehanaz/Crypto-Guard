@@ -1,5 +1,7 @@
+**deployment contribution credit**: sriteja-it
+<br>
+🛡️** CryptoGuard (Dark Mode PQC Dashboard)**
 
-🛡️ CryptoGuard (Dark Mode PQC Dashboard)
 A next-generation cryptographic safety auditor and interactive dashboard designed to evaluate public-key infrastructure (PKI) vulnerability index thresholds against emerging quantum computing threat vectors. 
 The application scans TLS/certificate endpoints, computes explainable risk scoring, manages active API key lifecycles, and retains persistent audit logs over secure pipelines.
 
